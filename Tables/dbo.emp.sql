@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[emp] (
   [EMPNO] [int] NOT NULL,
   [ENAME] [varchar](10) NULL,
-  [JOB] [varchar](9) NULL,
+  [JOB] [varchar](10) NULL,
   [MGR] [int] NULL,
   [HIREDATE] [datetime] NULL,
   [SAL] [float] NULL,
