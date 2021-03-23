@@ -100,6 +100,7 @@ INSERT Production.Location(LocationID, Name, CostRate, Availability, ModifiedDat
 INSERT Production.Location(LocationID, Name, CostRate, Availability, ModifiedDate) VALUES (32384, N'Starr77', 896.00, 555335.00, '1984-03-31 06:28:28.500')
 INSERT Production.Location(LocationID, Name, CostRate, Availability, ModifiedDate) VALUES (32385, N'Alesia2007', 754.00, 966884.00, '2015-10-26 01:14:24.630')
 INSERT Production.Location(LocationID, Name, CostRate, Availability, ModifiedDate) VALUES (32386, N'Lane2002', 1422.00, 608400.00, '1971-03-16 21:01:05.840')
+INSERT Production.Location(LocationID, Name, CostRate, Availability, ModifiedDate) VALUES (32387, N'Lane2021', 1423.00, 608400.00, '1972-03-16 21:01:05.840')
 GO
 SET IDENTITY_INSERT Production.Location OFF
 GO
