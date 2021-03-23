@@ -30,7 +30,9 @@ BEGIN
         ON [EMP_cte].[OrganizationNode].GetAncestor(1) = e.[OrganizationNode]
         INNER JOIN [Person].[Person] p 
         ON p.[BusinessEntityID] = e.[BusinessEntityID]
-    ORDER BY [RecursionLevel], [EMP_cte].[OrganizationNode].ToString()
+    ORDER BY
+    	[RecursionLevel],
+	[EMP_cte].[OrganizationNode].ToString()
     OPTION (MAXRECURSION 25) 
 END;
 GO
