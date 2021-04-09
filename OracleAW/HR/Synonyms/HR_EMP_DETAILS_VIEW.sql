@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM hr.hr_emp_details_view FOR hr.emp_details_view;
